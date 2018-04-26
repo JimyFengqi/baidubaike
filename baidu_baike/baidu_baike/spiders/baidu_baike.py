@@ -14,8 +14,5 @@ class baidubaikeSpider(Spider):
         print (response.url)
         title=response.xpath('//head/title/text()').extract_first()
         print ('title is '+title)
-        print ('hello,world!')
         item=BaiduBaikeItem()
-
-        print ('hello,world!')
         return item

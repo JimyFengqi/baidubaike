@@ -8,4 +8,5 @@
 
 class BaiduBaikePipeline(object):
     def process_item(self, item, spider):
-        return item
+        print (itme)
+
